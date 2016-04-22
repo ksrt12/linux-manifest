@@ -12,5 +12,8 @@
            sync-c="true"
            sync-j="4" />
 
+  <project path="linux-repo" name="ksrt12/linux-repo" >
+    <copyfile src="linux-repo/b" dest="b" />
+  </project>
   <project path="torvalds" name="torvalds/linux" />
 </manifest>
